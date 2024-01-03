@@ -1,0 +1,18 @@
+{
+  "name": "feedbin-to-eleventy",
+  "version": "1.0.0",
+  "description": "A small Node-based CLI utility to export Feedbin feeds to the format used by my Eleventy site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "slugify": "^1.6.6"
+  },
+  "license": "MIT"
+}
